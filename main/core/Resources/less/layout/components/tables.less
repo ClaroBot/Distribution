@@ -1,0 +1,20 @@
+table {
+    th {
+        background: @gray-lighter;
+
+        &, a {
+            color: @gray;
+            font-weight: bold;
+        }
+
+        a {
+            &:after {
+                content: " \25BE";
+            }
+
+            &:hover {
+                color: @gray;
+            }
+        }
+    }
+}

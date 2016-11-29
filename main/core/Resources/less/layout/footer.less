@@ -1,0 +1,30 @@
+#footer {
+    width: 100%;
+    position: relative;
+    margin-top: @navbar-height + 10px;
+    min-height: @navbar-height;
+    background-color: @gray-lighter;
+    color: lighten(@gray, 30%);
+
+    .container-fluid {
+        p, h1, h2, h3, h4, h5, h6 {
+            margin: 15px;
+            max-height: 100%;
+
+            a {
+                color: lighten(@gray, 30%);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.footer-preview {
+    background-color: @gray-lighter;
+    color: lighten(@gray, 30%);
+
+    a {
+        color: lighten(@gray, 30%);
+        font-weight: bold;
+    }
+}
