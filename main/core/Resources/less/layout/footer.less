@@ -1,10 +1,11 @@
-#footer {
+#footer,
+.footer-preview {
     width: 100%;
     position: relative;
     margin-top: @navbar-height + 10px;
     min-height: @navbar-height;
-    background-color: @gray-lighter;
-    color: lighten(@gray, 30%);
+    background: @footer-bg;
+    color: @footer-color;
 
     .container-fluid {
         p, h1, h2, h3, h4, h5, h6 {
@@ -12,19 +13,8 @@
             max-height: 100%;
 
             a {
-                color: lighten(@gray, 30%);
-                font-weight: bold;
+                color: @footer-color;
             }
         }
-    }
-}
-
-.footer-preview {
-    background-color: @gray-lighter;
-    color: lighten(@gray, 30%);
-
-    a {
-        color: lighten(@gray, 30%);
-        font-weight: bold;
     }
 }

@@ -3,7 +3,10 @@
  */
 
 // Base & utilities
-@grid-float-breakpoint: @screen-md;
+@box-shadow-base:         0 0 2px rgba(0, 0, 0, 0.10);
+@component-margin-bottom: @line-height-computed;
+@link-weight:             bold;
+@link-hover-weight:       bold;
 
 // Header
 @claroline-topbar-border: #f89406;
@@ -26,10 +29,27 @@
 @state-info-bg: lighten(@brand-info, 30%);
 @state-info-border: darken(spin(@state-info-bg, -10), 7%);
 
-// Breadcrumbs ?
+// Breadcrumb
+@breadcrumb-box-shadow:     none;
+@breadcrumb-font-size:      @font-size-small;
+@breadcrumb-text-transform: inherit;
+@breadcrumb-margin-bottom:  5px;
 
 // Sidebars
 
+// Page
+@page-header-padding:          0;
+@page-header-font-size:        26px; // link it to the default h* sizes
+@page-header-weight:           700;
+@page-header-link-color:       @gray-light;
+@page-header-link-hover-color: @gray-dark;
+
 // Footer
+@footer-bg:    #F3F3F3;
+@footer-color: @gray-light;
 
 // Forms
+
+// Panels
+@panel-box-shadow:    @box-shadow-base;
+@panel-margin-bottom: @component-margin-bottom;

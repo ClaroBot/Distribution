@@ -1,4 +1,9 @@
 .panel {
+    margin-bottom: @panel-margin-bottom;
+    .box-shadow(@panel-box-shadow); // just override bootstrap to use a var.
+}
+
+.panel {
     > table thead tr td,
     > table tbody tr td,
     > table thead tr th,
@@ -6,8 +11,7 @@
     > table tr td,
     > table tr th,
     .workspace-list-pager > table tr td,
-    .workspace-list-pager > table tr th
-    {
+    .workspace-list-pager > table tr th {
         padding-right: 14px !important;
         padding-left: 14px !important;
     }
@@ -25,5 +29,10 @@
 
     .panel-body img {
         max-width: 100%;
+    }
+
+    .panel,
+    .breadcrumb {
+        .box-shadow(none);
     }
 }
