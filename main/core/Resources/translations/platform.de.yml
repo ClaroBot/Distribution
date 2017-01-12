@@ -1014,7 +1014,7 @@ unknown: Inconnu
 unpublish: Depublier
 unpublished: 'Non publié'
 unregister: Désinscription
-unregister_from_a_workspace: 'Me désinscrire d''un espace d''activités'
+unregister_from_a_workspace: 'Me désinscrire d''un espace'
 unregister_group_confirm_message: 'Êtes-vous sûr de vouloir désinscrire ce groupe ?'
 unregister_group_s_confirm_message: 'Êtes-vous sûr de vouloir désinscrire ces %count% groupes?'
 unregister_user_confirm_message: 'Êtes-vous sûr de vouloir désinscrire cet utilisateur ?'
