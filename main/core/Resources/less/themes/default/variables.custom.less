@@ -2,21 +2,26 @@
  * Default theme values for claroline vars
  */
 
+// -
 // Base & utilities
+// ---
 @box-shadow-base:         0 0 2px rgba(0, 0, 0, 0.10);
 @component-margin-bottom: @line-height-computed;
 
+// -
 // Header
-@top-bar-height:            @navbar-height + 3px; // 3px is the size of the bottom border
-@top-bar-color:             lighten(@top-bar-bg, 30%);
-@top-bar-bg:                @component-active-bg;
-@top-bar-border-bottom:     3px solid #f89406;
-@top-bar-box-shadow:        @box-shadow-base;
+// ---
+@top-bar-height:              @navbar-height + @top-bar-border-bottom-size;
+@top-bar-color:               lighten(@top-bar-bg, 30%);
+@top-bar-bg:                  @component-active-bg;
+@top-bar-border-bottom-size:  3px;
+@top-bar-border-bottom:       @top-bar-border-bottom-size solid #f89406;
+@top-bar-box-shadow:          @box-shadow-base;
 
-@top-bar-brand-font-size:   22px;
-@top-bar-brand-color:       #fff;
-@top-bar-brand-hover-color: #fff;
-@top-bar-brand-hover-bg:    transparent;
+@top-bar-brand-font-size:     22px;
+@top-bar-brand-color:         #fff;
+@top-bar-brand-hover-color:   #fff;
+@top-bar-brand-hover-bg:      transparent;
 
 @top-bar-link-color:          lighten(@top-bar-bg, 40%);
 @top-bar-link-hover-color:    lighten(@top-bar-bg, 50%);
@@ -31,27 +36,67 @@
 @top-bar-toggle-hover-bg:     @top-bar-link-hover-bg;
 @top-bar-toggle-icon-bar-bg:  @top-bar-link-color;
 
+// -
+// Loader
+// ---
+
+
+
+// -
 // Breadcrumb
+// ---
 @breadcrumb-box-shadow:     none;
 @breadcrumb-font-size:      @font-size-small;
 @breadcrumb-text-transform: inherit;
 @breadcrumb-margin-bottom:  5px;
 
+// -
 // Sidebars
+// ---
 
+// -
 // Page
+// ---
 @page-header-padding:          0;
 @page-header-font-size:        26px; // link it to the default h* sizes
 @page-header-weight:           700;
 @page-header-link-color:       @gray-light;
 @page-header-link-hover-color: @gray-dark;
 
+// -
 // Footer
+// ---
 @footer-bg:    #F3F3F3;
 @footer-color: @gray-light;
 
+// -
 // Forms
+// ---
 
+// -
 // Panels
+// ---
 @panel-box-shadow:    @box-shadow-base;
 @panel-margin-bottom: @component-margin-bottom;
+
+// -
+// Widgets (by default give the same look as panels)
+// ---
+@widget-bg:                 @panel-bg;
+@widget-text:               @panel-default-text;
+@widget-border:             @panel-default-border;
+@widget-inner-border:       @panel-inner-border;
+@widget-border-radius:      @panel-border-radius;
+@widget-box-shadow:         @panel-box-shadow;
+@widget-margin-bottom:      @panel-margin-bottom;
+
+@widget-header-bg:          @panel-default-heading-bg;
+@widget-header-padding:     @panel-heading-padding;
+@widget-title-font-size:    ceil((@font-size-base * 1.125));
+@widget-header-btn-padding: 4px;
+
+// This is mostly used to avoid having the full widget to be colored
+// if the user choose a custom color for his widget.
+// This permits to fake the old behavior (only header and borders were colored)
+// by setting it to `@panel-bg` or `@widget-bg`
+@widget-content-bg:      transparent;

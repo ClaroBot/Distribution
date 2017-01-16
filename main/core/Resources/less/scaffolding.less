@@ -16,3 +16,19 @@ body.app-container {
     padding-bottom: 0; // No need to have a padding here
     overflow-y: auto; // Get the scroll bar
 }
+
+/* CHROME HACK FOR OUTLINED BUTTON WHEN FOCUSED */
+.btn:focus {
+    outline: none;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -@navbar-height;
+}
+
+#push {
+    height: 100%;
+}
