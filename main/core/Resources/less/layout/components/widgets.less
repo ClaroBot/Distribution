@@ -9,18 +9,20 @@
     border-radius: @widget-border-radius;
 
     .box-shadow(@widget-box-shadow);
-
-    /*.widget-header-control-box {
-        display: block;
-        white-space: nowrap;
-    }*/
 }
 
 // Widget contents
 .widget-content {
     overflow: auto;
     background-color: @widget-content-bg;
+    flex-grow: 1; // make the content to take the full height of the widget
+    display: flex; // this ensures the child take the full height of the widget content
+
     &:extend(.clearfix all);
+
+    & > * {
+        min-height: 100%;
+    }
 }
 
 // Optional header
