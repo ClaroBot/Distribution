@@ -63,6 +63,7 @@ hide_path_info: Masquer les informations relatives au parcours
 
 # m
 modified: avec des modifications en attente
+more_actions: Plus d'actions
 my_progression: Ma progression :
 
 # n
@@ -97,7 +98,7 @@ path_save_error: Une erreur s'est produite lors de la sauvegarde du parcours.
 path_summary_displayed: Ouvrir le sommaire par défaut ?
 path_template_save_success: Le modèle a correctement été sauvegardé.
 path_template_save_error: Une erreur s'est produite lors de la sauvegarde du modèle.
-preview: Retour au Parcours
+preview: Fermer
 preview_with_pending_changes_button: Prévisualiser la dernière version publiée
 preview_with_pending_changes_message: Le Parcours a des modifications non publiées.<br/><br/> Si vous le visualisez sans publication préalable, les changements effectués ne seront pas visibles.<br/><br/> Voulez-vous continuer et voir la dernière version publiée du parcours ?
 preview_with_pending_changes_title: Modifications non publiées
@@ -177,12 +178,14 @@ undo: Annuler
 unlock_this: Demander un déblocage
 unsaved: Non sauvegardé
 unseen: Non vu
+user_progression: statut
 user_progression_step_seen: Vous avez déjà vu cette étape.
 user_progression_step_unseen: Vous n'avez pas encore vu cette étape.
 user_progression_step_to_do: Vous avez marqué cette étape comme étant à faire.
 user_progression_step_done: Vous avez marqué cette étape comme étant terminée.
 user_progression_step_to_review: Vous avez marqué cette étape comme étant à refaire.
 
+user_progression_step_seen_label: Inconnu
 user_progression_step_to_do_label: A faire
 user_progression_step_done_label: Fait
 user_progression_step_to_review_label: A refaire

@@ -63,6 +63,7 @@ hide_path_info: Hide information of the path
 
 # m
 modified: with pending changes
+more_actions: More actions
 my_progression: My progression :
 
 # n
@@ -97,7 +98,7 @@ path_save_success: The path has been successfully saved.
 path_summary_displayed: Open summary by default ?
 path_template_save_error: An error occurred while saving template.
 path_template_save_success: The template has been successfully saved.
-preview: Back to path
+preview: Close
 preview_with_pending_changes_button: Preview the last published version
 preview_with_pending_changes_message: The path has unpublished changes.<br/><br/> If you display it without publishing, the changes won't be displayed.<br/><br/> Do you want to go on and see the latest published version of the path ?
 preview_with_pending_changes_title: Pending modifications
@@ -178,16 +179,14 @@ undo: Undo
 unlock_this: Ask for unlock
 unsaved: Not saved
 unseen: Unseen
+user_progression: status
 user_progression_step_seen: You have seen this step.
 user_progression_step_unseen: You have not seen this step.
 user_progression_step_to_do: You have marked this step as to do.
 user_progression_step_done: You have marked this step as done.
 user_progression_step_to_review: You have marked this step as to review.
 
-user_progression_step_to_do: You have marked this step as to do.
-user_progression_step_done: You have marked this step as done.
-user_progression_step_to_review: You have marked this step as to review.
-
+user_progression_step_seen_label: Unknown
 user_progression_step_to_do_label: To do
 user_progression_step_done_label: Done
 user_progression_step_to_review_label: To review
