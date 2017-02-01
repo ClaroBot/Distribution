@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 ujm_exercise: Exercice
 ujm_exercise_administrate: Administrer l'exercise
+=======
+ujm_exercise: Questionnaire
+exercise_form_name: Nom
+exercise_form_published: Publier
+>>>>>>> fdc49862d965c19a393072c2803c7df5e1f3ac2c
