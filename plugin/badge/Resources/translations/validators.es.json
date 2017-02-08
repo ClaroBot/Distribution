@@ -16,9 +16,9 @@
   "public_profile_url_not_valid": "Su URL pública de perfil no es válida.",
   "role_already_exists": "El rol ya existe.",
   "special_char_not_allowed": "Los caracteres especiales no están permitidos (los caracteres permitidos son: a-z, A-Z, 0-9, @, _, - y .)",
+  "username_doesnt_exist": "L'utilisateur %username% n'existe pas.",
   "valid_end_date_required": "Se requiere una fecha de finalización válida.",
   "valid_end_hour_required": "Se requiere una hora de finalización válida.",
   "valid_start_date_required": "Se requiere una fecha de inicio válida.",
-  "valid_start_hour_required": "Se requiere una hora de inicio válida.",
-  "username_doesnt_exist": "L'utilisateur %username% n'existe pas."
+  "valid_start_hour_required": "Se requiere una hora de inicio válida."
 }
