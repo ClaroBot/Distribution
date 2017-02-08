@@ -1,9 +1,9 @@
 {
-  "activities_from": "Actividades de",
-  "activity": "Actividad",
-  "all_activities": "Todas las actividades",
-  "claroline_activity_tool": "Mis actividades",
-  "end_date": "Fecha de  finalización",
-  "instructions": "Instrucciones",
-  "start_date": "Fecha de inicio"
+    "activities_from": "Actividades de",
+    "activity": "Actividad",
+    "all_activities": "Todas las actividades",
+    "claroline_activity_tool": "Mis actividades",
+    "end_date": "Fecha de  finalización",
+    "instructions": "Instrucciones",
+    "start_date": "Fecha de inicio"
 }

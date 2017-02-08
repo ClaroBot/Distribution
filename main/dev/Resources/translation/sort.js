@@ -15,7 +15,7 @@ glob(`${packageDir}/*/*/Resources/translations/*.json`, (er, files) => {
         acc[key] = decoded[key]
         return acc
       }, {})
-    const prettified = JSON.stringify(sorted, null, 2)
+    const prettified = JSON.stringify(sorted, null, 4)
     fs.writeFileSync(file, prettified)
   })
 })
