@@ -21,12 +21,11 @@ glob(`${packageDir}/*/*/Resources/translations/*.en.json`, (er, files) => {
     if (componentName !== 'core-platform') {
       components.push({
         name: `${bundle}-${domain}`,
-        repository_url: `weblate://project/core-platform`,
         vcs: 'github',
-        branch: 'translations',
+        branch: 'master',
         file_format: 'json',
-        filemask: `${type}/${bundle}/${domain}.*.json`,
-        template: `${type}/${bundle}/${domain}.en.json`
+        filemask: `${type}/${bundle}/Resources/translations/${domain}.*.json`,
+        template: `${type}/${bundle}/Resources/translations/${domain}.en.json`
       })
     }
   })
