@@ -16,8 +16,7 @@ glob(`${packageDir}/*/*/Resources/translations/*.en.json`, (er, files) => {
       const file = `${parsed.dir}/${domain}.${language}.json`
 
       if (!fs.existsSync(file)) {
-        console.log('writing', file)
-        //fs.writeFileSync(file, '{}')
+        fs.writeFileSync(file, '{}')
       }
     })
   })
